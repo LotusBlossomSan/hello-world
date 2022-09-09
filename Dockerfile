@@ -6,4 +6,4 @@ EXPOSE $PORT
 
 COPY app.js /app/
 
-CMD ["node", "/app/app.js"]
+CMD ["node", "app.js"]
